@@ -1,0 +1,66 @@
+h1{
+   font-weight: 100;
+   background-color: rgb(148, 200, 198);
+   font-family: 'Khand', sans-serif;
+
+}
+span{
+    font-family: 'Khand', sans-serif;
+}
+h2{
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    padding: 20px;
+}
+span:hover{
+    background-color: aliceblue;
+    transition: 1200ms ;
+}
+body{
+    background-color: rgb(162, 200, 200);
+}
+div#main{
+    padding: 20px;
+    text-align: center;
+}
+span#h1span{
+    font-size: 20px;
+}
+span#h1span:hover{
+    padding: 10px;
+    transition: 2500ms;
+    font-size: 30px;
+    color: darkcyan;
+
+}
+input#daysform,button#daysform{
+background-color: rgb(105, 144, 155);
+border-radius: 10px;
+border: 0;
+}
+button#daysform:hover{
+    padding: 1px;
+    transition: 120ms;
+    font-family: monospace;
+}
+div#footer,p#footer{
+    margin-top: 370px;
+    font-family: 'Edu TAS Beginner', cursive;
+    border: 2px;
+}
+img#buttonssocial{
+    display: inline-flex;
+    height: 20px;
+    align-items: right;
+    padding: 5px;
+}
+div#images{
+   text-align: center;
+}
+a#links{
+    text-decoration: none;
+}
+img#buttonssocial:hover{
+    transition: 200ms;
+    padding: 1px;
+}
