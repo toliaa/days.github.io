@@ -21,9 +21,9 @@ const handleClick = () => {
 }if (value == 5){
     alert('Friday');
 }if (value == 6){
-    alert('Sunday');
-}if (value == 7){
     alert('Saturday');
+}if (value == 7){
+    alert('Sunday');
   }  
 }
 
