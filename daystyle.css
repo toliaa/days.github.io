@@ -1,7 +1,9 @@
 h1{
    font-weight: 100;
-   background-color: rgb(148, 200, 198);
+   background-color: rgb(194, 233, 232);
    font-family: 'Khand', sans-serif;
+   border-radius: 20px;
+   padding-left: 10px;
 
 }
 span{
@@ -22,6 +24,10 @@ body{
 div#main{
     padding: 20px;
     text-align: center;
+    background-color: rgb(177, 205, 205);
+
+    box-shadow: 5px 0px 30px rgb(241, 237, 231);
+    border-radius: 60px;
 }
 span#h1span{
     font-size: 20px;
@@ -44,9 +50,10 @@ button#daysform:hover{
     font-family: monospace;
 }
 div#footer,p#footer{
-    margin-top: 320px;
+    margin-top: 350px;
     font-family: 'Edu TAS Beginner', cursive;
     border: 2px;
+    padding-left: 10px;
 }
 img#buttonssocial{
     display: inline-flex;
@@ -56,11 +63,21 @@ img#buttonssocial{
 }
 div#images{
    text-align: center;
+   border-radius: 60px;
 }
+
 a#links{
     text-decoration: none;
 }
 img#buttonssocial:hover{
     transition: 200ms;
     padding: 1px;
+}
+div#main:hover{
+    box-shadow: 5px 5px 30px rgb(255, 213, 213);
+    
+    
+}
+.sub{
+    font-size: small ;
 }
